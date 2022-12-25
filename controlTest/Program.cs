@@ -10,7 +10,9 @@ string? temp = Console.ReadLine();
 if (temp != null)
 {
 
-   
+    string[] arrayLocal = temp.Split(",");
+
+    Console.WriteLine($"Полученный массив: [{String.Join("; ", arrayLocal)}]");
 
 }
 
